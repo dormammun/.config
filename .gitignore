@@ -6,7 +6,6 @@
 
 !starship.toml
 
-!/tmux
 !/tmux/.tmux.conf
 
 !/Hyper

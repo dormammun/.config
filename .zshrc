@@ -127,6 +127,11 @@ alias ec='nvim ~/.config/nvim/init.vim'
 alias ez='nvim ~/.zshrc'
 alias sz='source ~/.zshrc'
 
+alias et='nvim ~/.config/tmux/.tmux.conf'
+alias st='tmux source ~/.config/tmux/.tmux.conf'
+
+alias eh='nvim ~/.config/Hyper/.hyper.js'
+
 alias memcl='sudo purge'
 
 alias lz='lazygit'
