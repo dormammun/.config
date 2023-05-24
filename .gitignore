@@ -4,6 +4,8 @@
 !git/config
 !.gitignore
 
+!.Brewfile
+
 !starship.toml
 
 !/tmux/.tmux.conf
