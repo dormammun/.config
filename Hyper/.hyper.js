@@ -4,7 +4,7 @@
 // See https://hyper.is#cfg for all currently supported options.
 module.exports = {
     config: {
-	catppuccinTheme: 'Latte', // Latte, Frappé, Macchiato, Mocha
+	catppuccinTheme: 'Frape', // Latte, Frappé, Macchiato, Mocha
         // choose either `'stable'` for receiving highly polished,
         // or `'canary'` for less polished but more frequent updates
         updateChannel: 'stable',

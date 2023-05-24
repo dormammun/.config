@@ -119,6 +119,7 @@ eval "$(starship init zsh)"
 bindkey '^y' autosuggest-accept
 
 alias fm="nnn"
+alias fms="nnn -S"
 
 alias sn='nvim -u ~/.config/svim/main.vim'
 alias e='nvim'
@@ -133,6 +134,7 @@ alias st='tmux source ~/.config/tmux/.tmux.conf'
 alias eh='nvim ~/.config/Hyper/.hyper.js'
 
 alias memcl='sudo purge'
+alias cl='clear'
 
 alias lz='lazygit'
 alias gs='git status'
@@ -145,4 +147,4 @@ alias gcl='git clone'
 alias ga='git add'
 alias gaa='git add .'
 
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=10'
+export NNN_PLUG='j:autojump;'
